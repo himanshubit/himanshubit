@@ -3,9 +3,6 @@
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg" />
   <img alt="himanshubit's GitHub profile" src="dark_mode.svg" />
 </picture>
-
-## Hi there 👋
-
 <!--
 **himanshubit/himanshubit** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
