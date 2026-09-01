@@ -6,6 +6,10 @@
     0% { stroke-dashoffset: 2000; }
     100% { stroke-dashoffset: 0; }
   }
+  @keyframes grow-hover {
+    0% { stroke-dashoffset: 2000; }
+    100% { stroke-dashoffset: 0; }
+  }
   .branch {
     fill: none;
     stroke-linecap: round;
@@ -13,6 +17,9 @@
     stroke-dasharray: 2000;
     stroke-dashoffset: 2000;
     animation: grow 5s ease-out forwards infinite alternate;
+  }
+  svg:hover .branch {
+    animation-name: grow-hover;
   }
   </style>
   <path class="branch" d="M 1350.0 323.4 L 1333.6 320.5 L 1317.1 318.3 L 1300.4 317.6 L 1283.8 316.2 L 1267.4 313.1 L 1250.9 310.9 L 1234.2 310.7 L 1217.6 309.5 L 1201.3 305.9 L 1185.0 302.5 L 1169.1 297.7 L 1152.8 294.0 L 1136.8 289.5 L 1120.2 287.4 L 1104.0 283.5" stroke="#3b4a6b" stroke-width="4.0" style="animation-delay: 0.9s" />
