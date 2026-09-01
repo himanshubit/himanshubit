@@ -7,7 +7,7 @@
     100% { stroke-dashoffset: 0; }
   }
   @keyframes grow-hover {
-    0% { stroke-dashoffset: 2000; }
+    0% { stroke-dashoffset: 2000.1; }
     100% { stroke-dashoffset: 0; }
   }
   .branch {
@@ -18,7 +18,7 @@
     stroke-dashoffset: 2000;
     animation: grow 5s ease-out forwards infinite alternate;
   }
-  svg:hover .branch {
+  svg:hover .branch, :root:hover .branch {
     animation-name: grow-hover;
   }
   </style>
